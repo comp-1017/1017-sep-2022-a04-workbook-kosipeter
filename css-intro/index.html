@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>CSS Introduction</title>
+        <meta charset="utf-8">
+        <meta name="author" content="kosisochukwu chukwuemeka-peter"> 
+    </head>
+    <body>
+        <header>
+           <h1>CSS Introduction</h1> 
+           <nav>
+            <!-- this is the ONLY semantic tag that will be allowed to have
+                 a missing hx tag-->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="index-inline.html">Inline</a></li>
+                    <li><a href="index-embedded.html">Embedded</a></li>
+                    <li><a href="index-stylesheet.html">Using StyleSheet</a></li>
+                </ul>
+           </nav>
+        </header>
+        <main>
+            <section>
+                <h2>CSS coding styles</h2>
+                <table border="1">
+                    <tbody>
+                        <tr>
+                            <td>Browser Defaults</td>
+                            <td width="400px"> you have not supplied any css code</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Inline</td>
+                            <td>this is for a single specific element (tag) instance. the 
+                                element contains a parameter called style="".
+                            </td>
+                            <td>style="rule; [rule; ...]"</td>
+                            <td>style="color:red; width:50px;"</td>
+                        </tr>
+                        <tr>
+                            <td>Embedded</td>
+                            <td>coded in your head area of the web page. is started with
+                                    the style element and contains the selectors and rules
+                                    for the desired css. applies ONLY to the physical page
+                                    where the code is placed. Affects all selectors on the
+                                    page
+                            </td>
+                            <td>&lt;style&gt;<br />selector {rule; [rule; ...]}<br />
+                               [selector {rule; [rule; ...]} ...]<br />&lt;/style&gt;</td>
+                            <td>&lt;style&gt;<br />p {font-size:large; font-weight:bold;}<br />
+                                blockquote {width:350px;}<br />&lt;/style&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>Stylesheet</td>
+                            <td>similar to embedded however, the selectors and rules are code
+                                in a separater phyiscal file. this file can be shared throughout
+                                the entire web site. thus, all css is in one common place.
+                            </td>
+                            <td>selector {rule; [rule; ...]}<br />
+                                [selector {rule; [rule; ...]} ...]</td>
+                            <td>p {font-size:large; font-weight:bold;}<br />
+                                    blockquote {width:350px;}</td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
