@@ -1,34 +1,28 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-        <title>CSS Embedded</title>
+        <title>CSS StyleSheet</title>
         <meta charset="utf-8">
         <meta name="author" content="kosisochukwu chukwuemeka-peter"> 
-        <!-- this is the embedded styling for THIS paper
-              the selectors code using this style of css affects ALL instances
-                  of the selector on the page-->
-        <style>
-          h1 {
-               color:red;
-           }
-        
-          p {
-              background-color:silver; 
-              font-family:Calibri;
-            }
-       </style>
+         <!-- using CSS located inside a stylesheet requires a link tag to
+              pointer to the CSS file.
+             use relative addressing to reference the CSS stylesheet
+            
+            the href on the link tag can point to css files locally AND/OR on a
+               different web site.-->
+            <link href="css/mystyling.css" rel="stylesheet">
     </head>
     <body>
         <header>
-            <h1>CSS Embedded</h1> 
+            <h1>CSS StyleSheet</h1> 
            <nav>
             <!-- this is the ONLY semantic tag that will be allowed to have
                  a missing hx tag-->
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="index-inline.html">Inline</a></li>
-                    <li><a href="#">Embedded</a></li>
-                    <li><a href="index-stylesheet.html">Using StyleSheet</a></li>
+                    <li><a href="index-embedded.html">Embedded</a></li>
+                    <li><a href="#">Using StyleSheet</a></li>
                 </ul>
            </nav>
         </header>
@@ -59,7 +53,7 @@
                     desktop publishing software like Aldus PageMaker including 
                     versions of Lorem Ipsum.
                 </p>
-                <p style="font-family:Arial, Helvetica, sans-serif">
+                <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting 
                     industry. Lorem Ipsum has been the industry's standard dummy text 
                     ever since the 1500s, when an unknown printer took a galley of 
@@ -72,7 +66,7 @@
                     versions of Lorem Ipsum.
                 </p>
             </section>
-
+       
         </main>
         <footer>
 

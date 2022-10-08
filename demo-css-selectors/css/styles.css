@@ -1,0 +1,64 @@
+/* this demo is introducing selectors and css layout styling 
+
+selectors can be represented by
+a) html tags
+b) class names
+c) id names
+d) contain psuedo classes
+
+selectors can be singular, group as multiple if they contain the same css
+
+you can have multiple references to the same selector containing different rules
+multiple same selector accumulate all rules
+
+ 
+*/
+body, h1, h2, 
+h3, h4, p
+{
+    margin: 0;
+    padding: 0;
+}
+/* the color rule is using the rgb setting syntax for the color (hex code) */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#111; 
+}
+footer{
+    padding:40px;
+    background-color: #dedede;
+}
+
+/* if a selector is repeater AND contains a rule that exist in the previous selector definition
+     then the former definition is OVERRIDDEN by the new rule specifications
+     
+     "the last rule wins"
+     */
+h1{
+    padding: 48px;
+    color: #696969;
+    border-bottom: 1px solid #dedede;
+}
+
+/* a class is a user defined name that can exist as a parameter on an html tag 
+
+   syntax: .your-class-name*/
+.menu-items {
+    font-family: Courier, sans-serif;
+    list-style-type: none;
+    width: 600px;
+    padding:24px;
+    border-left: 5px solid red;
+    background-color: #f4f4f4;
+    margin-left: 24px;
+}
+
+section{
+    font-family: Arial;
+    width: 800px;
+    margin: 48px;
+}
+
+.special-section{
+    font-weight: bold;
+}
