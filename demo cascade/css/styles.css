@@ -1,0 +1,112 @@
+footer{
+       background-color:#333;
+       color:yellow;
+
+}
+
+/* make a specific class with your css rule 
+
+.nav-background{
+    background-color: #ddd;
+}
+*/  
+
+/* use decendant selectors 
+
+you use a DRILL DOWN approach to insolating the html you wish to apply your rule
+
+exapme:
+      within the nav area, the url is to get the followig rules
+*/
+nav ul{
+    background-color: #ddd;
+}
+nav ul li{
+     border-bottom: 1px solid black;
+}
+
+/* child selectors
+ this is a element within another element that is NOT necessarily directly below
+ the parent element selector
+ upper html element (parent)
+   within the upper th
+*/
+
+main p{
+    font-style:italic
+}
+
+
+/* to remove the underline of a anchor tag: text-decoration: none;
+   change the text color of the anchor tag to #333
+*/
+
+nav ul li a{
+    text-decoration: none;
+    color: #333
+}
+
+/* make any text in the foote white*/
+
+footer, 
+footer a{
+    color:white
+}
+
+/*
+classes
+
+syntax for naming is. user-name{rule}
+you at NOT using element names 
+user name must be meaningful
+claases can be attached to any element 
+classes 
+
+types: user (tagetted) class
+       psuedo class, these are attach to element 
+ anchor tag has several psuedo classes
+NOTE! the order in which your code psuedo classes for the anchor is EXTREMELY IMPORTANT
+
+a:link unused link
+a: hover used when your cursor hovers over 
+*/
+
+nav ul li a:hover{
+    color: blue;
+    font-weight:bold;
+    font-size:larger;
+}
+nav ul li a:active{
+    color: red; 
+    /*font-weight: bold
+    font-size: large;
+    class selector can be more specific wg
+    */
+
+}
+   
+.bulletremoval{
+    list-style-type: none;
+    padding-left: 0px; 
+}
+
+/* targetted class 
+ element.claassname 
+*/
+
+
+nav ul .bulletremoval{
+    /*list-style-type: square;*/
+    list-style-type: none;
+    padding: 10px;
+    
+}
+
+/* id selector
+it is similar to a class sellector but supposed to be once in a page where as
+a classs may be used 
+mutiple times
+
+syntax #user-name{rules}
+on the html page: id="user-name"
+
