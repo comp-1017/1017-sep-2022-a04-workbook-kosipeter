@@ -1,0 +1,81 @@
+/*************************************************************
+
+margin: the outter most part of the box
+        represents separartion BETWEEN boxes
+        horizontal margines are added together
+        vertical margines are COLLASPED
+            if the vertical margins are postives then 
+            then larger of the two margins are used
+
+margin can be coded in various styles
+long hand: margin-top: size, margin-right: size, margin-bottom: size, margin-left: size
+equals opposite sides: margin tb rl;
+short hand unequal: margint r b l;
+short hand equal: margin: size
+****************************************************************/
+
+.margin-section{
+    /*margin */
+    margin: 24px 12px 24px 12px;
+}
+
+.border-section{
+    /*border-width: 3px;
+    border-style: solid black;
+    */
+    border: 3px solid black ;
+}
+/*************************************************************
+
+margin: the second most part of the box
+        represents otter diplayable edge of  boxes
+
+boreder can be coded in various style   
+long hand: border-top: size, margin-right: size, margin-bottom: size, margin-left: size
+equals opposite sides: margin tb rl;
+short hand equal: border: size dtylr color
+****************************************************************/
+
+
+.padding-section{
+    padding: 24px;
+
+}
+/*************************************************************
+
+padding : the inside part of the box
+        represents separartion BETWEEN border and content 
+        
+padding can be coded in same fashion as the we have for margin;various styles
+long hand: margin-top: size, margin-right: size, margin-bottom: size, margin-left: size
+equals opposite sides: margin tb rl;
+short hand unequal: margint r b l;
+short hand equal: margin: size
+****************************************************************/
+
+
+/************************************
+
+content: by default this is the display area of your 
+         element content
+         the size of the content area is dependent on whether
+         yhere are margin, border and/or padding specifird for the 
+         element.
+
+
+calculation page width = lm + lb + content + rp + rb + rm
+
+samples: 960 = 0 + 0 + 0 + content + 0 + 0 + 0 
+         960 -(0+0+0+0+0+0)= content 
+         960 = content 
+
+         960
+************************************/
+
+
+.width-section {
+    width: 700px;
+    margin:24px;
+    padding:12px ;
+    border: 3px solid red;
+}
