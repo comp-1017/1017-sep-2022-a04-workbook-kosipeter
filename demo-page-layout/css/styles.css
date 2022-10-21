@@ -1,0 +1,36 @@
+body {
+	background-color: white;
+}
+
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+/*****************************
+		Typography
+*****************************/
+ 
+h1,
+h2{
+   padding: 10px;
+   text-align: center;
+   font-family:Arial,  sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   color:#747474;
+
+
+   
+}
+/***************************************
+
+			layout
+
+**************************************/
+nav{
+	margin-top:48px;
+	background-color: #dddddd;
+	
+}
