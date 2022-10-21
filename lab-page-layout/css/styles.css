@@ -1,0 +1,10 @@
+body {
+	background-color: white;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+	font-size: 100%;
+	line-height: 1.5;	
+}
