@@ -28,6 +28,7 @@ nav ul li{
 /* child selectors
  this is a element within another element that is NOT necessarily directly below
  the parent element selector
+
  upper html element (parent)
    within the upper th
 */
@@ -39,6 +40,7 @@ main p{
 
 /* to remove the underline of a anchor tag: text-decoration: none;
    change the text color of the anchor tag to #333
+   apply only to the navigational menu
 */
 
 nav ul li a{
@@ -68,7 +70,9 @@ types: user (tagetted) class
 NOTE! the order in which your code psuedo classes for the anchor is EXTREMELY IMPORTANT
 
 a:link unused link
-a: hover used when your cursor hovers over 
+a:hover used when your cursor hovers over the anchor tag link
+a:visited used when the anchor tag link has been click on previously
+a:active used when you are actually clicking the anchor tag link 
 */
 
 nav ul li a:hover{
