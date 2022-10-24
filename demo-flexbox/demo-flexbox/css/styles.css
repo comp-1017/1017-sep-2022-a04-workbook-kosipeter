@@ -1,0 +1,127 @@
+body {
+    background: rgba(0, 0, 0, 0.01);
+    font-family: Verdana, sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 100%;
+    line-height: 1.5
+}
+
+
+/*CLEAR FIX SOLLUTION*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/******************************************
+        demo css styling 
+
+        layout 
+                
+criteria: 
+margin 10px between outter edges and boxes (red and blue)
+margin 10px between the boxes (red and blue)
+footer 10px margin
+
+calculation:
+960 =  (lm + lb + lp + content + rp + rb + rm) + (lm + lb + 1lp + content + rp + rb + rm)
+960 =  (10+ 0 + 0 + content + 0 + 0 + 0) + (10 + 0 + 0 + content + 0 + 0 + 0) + 10
+960 = 30 + 2 * content 
+960 - 30 = 2 * content 
+930 / 2 = content 
+465 = content 
+
+960 =  (lm + lb + lp + content + rp + rb + rm)
+960 =  (10+ 0 + 0 + content + 0 + 0 + 10)
+960 = 30 + 2 * content 
+960 - 30 = 2 * content 
+930 / 2 = content 
+465 = content 
+
+*****/
+
+/****************
+default diplay of elements on your page is called"STACKED"
+to get your element on the same line we use something called flexbox
+to invoke flexbox use the rule:
+ display:flex;
+ 
+ flexbox attempts to place all element within its specified container area 
+ on the same line
+flexbox will automatically adjust measurements to get all elements 
+to appear on the same line 
+
+problem: i dont want all the elements on the same line 
+         i dont want my measurements adjusted 
+
+solution: 
+use flex-wrap:wrap;
+this will place as many element ad possible on a single row
+without adjusting the measurements of your element and any leftover elements
+will wrap to the following line until all element have been displaed.
+
+flex-wrap affects a lex diplay area, without the display: flex; 
+flex-wrap is meaningless.
+***************/
+main{
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*************************
+ since there is no actual content we will simulate 
+ the content with fixed height value of 300px
+ ******************/
+ main div{
+    margin: 10px 0 10px 10px;
+    height: 300px;
+    width: 465px;
+      
+   
+}
+
+.red-paint{
+    background-color: red;
+}
+
+.blue-paint{
+    background-color: blue;
+}
+
+.black-paint{
+    background-color: black;
+    width: 940px;
+    height: 50px;
+    margin: 0px 10px 10px 10px;
+
+}
+
+footer{
+    background-color: lightgrey;
+    height: 60px;
+    width: 960px;
+    display: flex;
+}
