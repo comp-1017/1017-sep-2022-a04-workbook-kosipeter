@@ -1,0 +1,115 @@
+body {
+    background: rgba(0, 0, 0, 0.01);
+    font-family: Verdana, sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 100%;
+    line-height: 1.5
+}
+
+
+/*CLEAR FIX SOLLUTION*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/*******************************************************
+        demo css styling
+
+        Layout
+
+criteria:
+margin 10px between outter edges and boxes (red and blue and green)
+margin 10px between the boxes (red and blue and green)
+border of 2px around boxes and main
+
+
+calculations:
+ 960 = (lm +lb + lp + content + rp + rb + rm) + (lm + lb + lp + content + lp + lb + lm) + remainder
+ 960 = (10 + 2 + 0 + 150 + 0 + 2 + 0) + (10 + 2 + 0 + content + 0 + 2 + 0) + (10 + 2 + 2)  
+ 960 = 192 +  content
+ 960 - 192 =  content
+ 768 = content
+
+ 
+ ***************************************************************/
+
+ 
+ main{
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+ }
+
+/*********************************************
+    since there is no actual content we will
+    simulate the content with a fixed height
+    value of 300px
+********************************************/
+
+ .asidesize{
+    margin: 10px 0 10px 10px;
+    width: 150px;
+    height: 600px;
+    border: 2px solid black;
+ }
+
+ /*****************************************************
+  the height of the right column items can use a similiar
+     calculation as the horizontal layout
+
+  the one item you MUST remember is that the vertical margin (VM)
+    between items are collapsed
+  the largest vm is used between any two single items
+
+  600 = 2(tb + tp + content + bp + bb) + vm 
+  600 = 2(2 + 0 + content + 0 + 2) + 10
+  600 = 2 * 4 + 10 + 2 * content
+  600 = 18 + 2content
+  582 /2 = content
+  291
+
+  this ONLY works because the content area of the vertical
+    boxes are equal
+ ******************************************************/
+ .contentsize{
+    margin: 10px 0 10px 10px;
+    width: 768px; 
+    height: 291px;
+    border: 2px solid black;
+ }
+ .red-paint{
+    background-color: red;
+ }
+
+ .blue-paint{
+    background-color: blue;
+ }
+
+ .green-paint{
+    background-color: green;
+ }
+

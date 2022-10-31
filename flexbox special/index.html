@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" >
+    <title>Flexbox Special</title>
+    <meta name="author" content="Don Welch">
+    <!-- since there is not text within this demo, the reset
+        style style is not real necessary and can be commented
+        out 
+    <link rel="stylesheet" type="text/css" href="css/reset.css">-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Flexbox 2 Column</h1>
+        </header>
+        <!-- the flexbox is on main 
+             therefore the element immediately within main
+                are flexed
+        -->
+        <main>
+            <!-- <div> -->
+                <div class="red-paint asidesize"></div>
+            <!-- </div> -->
+            <div>
+                <!-- the items within this div are NOT immediately
+                    under main
+                the items within this div are immediately under 
+                    the div
+                these items are NOT affected by the main flexbox 
+                therefore these items are default stacked
+            -->
+                <div class="blue-paint contentsize"></div>
+                <div class="green-paint contentsize"></div>
+            </div>
+        </main>
+
+    </div>
+</body>
+
+</html>

@@ -1,147 +1,23 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
     <head>
-                <!--
-                    this is a commment, it is not html code or content
-
-                    title tag: ths tag supplies the content for the browser tag
-                    meta tag: several version and option on this tag 
-                      :charset - specifies the set of character oto be used by the web page 
-                      :name= and content= name allow foe specific item,content is the content(text)
-                      the tag element in the head is used area are no the webpage,they do not 
-                      consider part of the content they are used by the internet and browser to 
-                      manage the webpage
-                    )  
-                -->
- 
-                    <title> Basic HTML structure</title>
-                    <meta charset="utf-8">
-                    <meta name="author" content="kosisochukwu chukwuemeka-peter">
-
-  </head>
-    <body> 
-         <!-- 
-            items in this area to intented for display (content)on the webpage 
-            
-            header tag h1 throw h6 : these are titles/headlines, importance is 1 greatest, 6 least 
-
-            paragraph tag : is a <p> tag thistag indicates the content to paragrah 
-         -->
-         <h1>basic html tags </h1>
-         <h3>paragraph tag</h3>
-         <p> this page domonstrates the basic structure of a HTML web page.The head area has browse title tab 
-            specified, as well as the charest defined.The body demonstrates the h1 header tag an the paragraph tag.
-
-        </p>
-         <P>this another paragragh </P>
-         <!--
-         if you wish to use a component of a reserved tag (or the whole tag) 
-           you would be in trouble using the tag.
-         instead: you can use special character strings in to represent 
-         component of the tag sucha as the <(&lt)and the the > (&gt;) symbvols  
-         -->
-
-          <H3>list tas: &lt;ol&gt; and &lt;ul&gt;></H3>
-         <!--
-          block tags , paried 
-          create an ordered list (numbered) using <ol>
-          create an unordered list (bulleted) using <ul>  
-            items in the list are indicated using the line item <li>
-            -->
-          
-          <ol> 
+        <title>CSS Introduction</title>
+        <meta charset="utf-8" >
+        <meta name="author" content="Don Welch"> 
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <header>
                 
-              <li> Add extension live server for go live excution from vsc</li>
-              <li>open extensions using 5 icons on the left by menu</li>
-              <li>either search for liver server or select if seen in the list </li>
-              <li> press install </li>
-              <li> to use </li>
-                  <ol>
-                      <li>Open an html page </li>
-                      <li>Make any adjustments</li>
-                      <li>Save adjustments</li>
-                      <li>Look to bottom right on blue status line for Go Live and press</li>
-                      <li>Make additonal adjustments, save and retturn to the browser to see updates</li>
-                  </ol>                 
-              </li>
-           </ol>     
-          <ul>
-               <li>This is an unordered list</li>
-               <li>Default display is a bulleted list</li>
-               <li>We will see later how to remove these bullet using css styling</li>
-          </ul>
-          
-      <h3> Anchor tag (a.k.a linking another page)</h3>
-      <!--blocked paried 
-          This is anchor tag is incorrectly often referred to as the link tag 
-          One should not use the link tag because there is actually a <link>
-            use in the, head> section
-          The anchor tag can take you to a different location whether it be on a different 
-              website, different page in the current web site or a differnt location on the current page 
-          
-          parameters
-          href: points to the desired location
-          target: indicates the browser page display option
-                  defaultr is same diplay page tab
-                  _blank will open a new browser tab (page)   
-      --> 
-                        
-          <a href="https://www.nait.ca" target="_blank">go to Nait</a>
-        
-      <h3>image tag</h3>
-     <!--an empty (void) tag
-        image tag does not have a closing tag
-        the image tage  has no content, however is does have parameters
+            </header>
+            <main>
 
-        parameters
-        src="relative web site location"
-        alt="printable text if the image is not found at src"
-        [title="tool tip text for the image"]
+            </main>
+            <footer>
 
-        Absolute Addressing is a complete fixed file path
-          drive:/folder/..../folder/filename.ext
-        
-        relative address begins at a specific point 
-        for web site, it  is the "top of the web site"
-        referrence to the desired filename is done by specifying 
-          the appropriate folder path to the desired file 
-        NO DRIVE 
-         
-        Movement with a relative address 
-        -if only the filenamevis given, the location is with in the same folder
-        -movement down the file structure is by /foldername
-        -movement up the file structure is by using .. for each
-           folder level to ascend 
-           
-           
-        same folder
-        ="filename.ext" 
-        
-        lower folder
-        ="nextleveldownfoldername/nextleveldownfoldername/.../filename.ext"
-
-        from the lower folder to another lower folder on a different branch 
-        .. for each level that needs to be ascended 
-        ="../../../nextleveldownfolder/filename.ext"
-     -->  
-    <img src="img/photoshop.png" alt="logo photoshop"
-     title="a logo imageof photoshop"> 
-
-     <!-- 
-      combine the anchor tag and the image tag as the anchor tag content
-
-
-
-     --> 
-     <a href="http://www.adobe.com" target="_blank">
-     <img src="img/photoshop.png" alt="logo photoshop"
-     title="a logo imageof photoshop" style="width:80px; height:80px">
-     </a>
- 
-     
-
-
-    </body> 
+            </footer>
+        </div>
+    </body>
 </html>
-     

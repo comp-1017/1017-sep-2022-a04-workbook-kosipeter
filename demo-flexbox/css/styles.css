@@ -1,0 +1,123 @@
+body {
+    background: rgba(0, 0, 0, 0.01);
+    font-family: Verdana, sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 100%;
+    line-height: 1.5
+}
+
+
+/*CLEAR FIX SOLLUTION*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/*******************************************************
+        demo css styling
+
+        Layout
+
+criteria:
+margin 10px between outter edges and boxes (red and blue)
+margin 10px between the boxes (red and blue)
+footer 10px margin
+
+calculations:
+ 960 = (lm +lb + lp + content + rp + rb + rm) + (lm +lb + lp + content + rp + rb + rm)
+ 960 = (10 + 0 + 0 + content + 0 + 0 + 0) + (10 + 0 + 0 + content + 0 + 0 + 0) + 10
+ 960 = 30 + 2 * content
+ 960 - 30 = 2 * content
+ 930 / 2 = content
+ 465 = content
+
+ 960 = (lm +lb + lp + content + rp + rb + rm)
+ 960 = (10 + 0 + 0 + content + 0 + 0 + 10)
+ 960 = 20 + content
+ 960 -20 = content
+ 940 = content
+
+ ***************************************************************/
+
+ /********************************************************
+  default display of elements on your page is called "stacked"
+  to get your element on the same line we use something called flexbox
+  to invoke flexbox use the rule: 
+        display: flex;
+  flexbox attempts to place all element within its "specified container area"
+    on the same line
+  flexbox will automatically adjust measurements to get all elements
+    to appear on the same line
+  
+  problem: I don't want all elements on the same line
+           I don't want my measurements adjusted 
+  solution:
+   use flex-wrap: wrap;
+   this will place as many elements as possible on a single row
+        without adjusting the measurements of your element, and
+        any leftover elements will wrap to the following line
+        until all elements have been displayed
+   flex-wrap affects a flex display area, without the display: flex;
+        flex-wrap is meaningless.
+*************************************************************/
+
+ main{
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 10px 0; */
+ }
+
+/*********************************************
+    since there is no actual content we will
+    simulate the content with a fixed height
+    value of 300px
+********************************************/
+
+ main div{
+    margin: 10px 0 10px 10px;
+    width: 465px;
+    height: 300px;
+ }
+
+ .red-paint{
+    background-color: red;
+ }
+
+ .blue-paint{
+    background-color: blue;
+ }
+
+ footer{
+    background-color: lightgray;
+    display: flex;
+ }
+ .black-paint{
+    background-color: black;
+    height: 60px;
+    width: 940px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+ }
