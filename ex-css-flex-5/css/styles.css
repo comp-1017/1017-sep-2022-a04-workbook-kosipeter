@@ -7,6 +7,7 @@ body {
     width: 960px;
     font-size: 100%;
     line-height: 1.5;
+    flex-direction: row;
 }
 
 /* TYPOGRAPHY */
@@ -28,20 +29,51 @@ main{
     flex-wrap: wrap;
     padding: 10px 0;
     border: 2px solid black;
+    height: 960px;
+    padding: 7.5px;
 }
 
 main div{
-    margin: 10px 0 10px 10px;
-    width: 465px;
-    height: 200px;
+    margin: 10px ;
+    width: 300px;
+    height: 100px;
 }
 
-.top-left{
+.top{
     background-color: white;
     padding: 10px;
     border: 2px solid black ;
+    margin: 10px;
+    display: flex; 
+    flex-wrap: wrap;   
+}
+
+
+.top-right{
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black ;
+    margin: auto;
+    display: flex; 
+    flex-wrap: wrap;  
+
+    flex: 1 1 auto;
+    width: 200px;
+    height: 100px;
+
+}
+
+.middle{
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black ;
+    margin: 15px;
+     
     
 }
+
+
+
 .box{
     background-color: white;
     padding: 10px;
@@ -62,10 +94,17 @@ main div{
     padding: 10px;
     border: 2px solid black ;
 }
+        
 .footer{
     background-color: white;
-    padding: 10px;
-    border: 2px solid black ;
 }
-/**   width:600px ;
-    height:400px ;*/
+  /*width:600px ;
+    height:400px ;
+    .Row {
+        display: table;
+        width: 100%; 
+        table-layout: fixed; 
+        border-spacing: 10px; 
+        height: 280px;
+    }**/
+    
