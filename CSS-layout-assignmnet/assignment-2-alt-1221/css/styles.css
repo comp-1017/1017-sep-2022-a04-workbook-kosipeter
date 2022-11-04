@@ -1,0 +1,58 @@
+body {
+	background-color: white;
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	color: #3333;
+}
+ 
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+h1,
+h2{
+	font-weight: bold;
+}
+
+h1{
+	font-size: 24px;
+}
+
+h2{
+	font-size: 18px;
+}
+
+
+/****LAYOUT*********/
+.site-header nav{
+	margin:15px 0
+}
+
+.site-header nav li{
+	width: 170px;
+	margin-left:15px ;
+	border: 2px solid #3333;
+	text-align: center;
+
+}
+.menu{
+	margin-right: 945px;
+	margin-left: 870px;
+	border-right: 850px;
+	
+
+}
+
+main{
+	display: flex;
+}
+
+main section{
+	width: 423.5px;
+	border: 2px solid #3333;
+	margin-left: 15px;
+	margin-top: 15px;
+	padding: 15px;
+}
