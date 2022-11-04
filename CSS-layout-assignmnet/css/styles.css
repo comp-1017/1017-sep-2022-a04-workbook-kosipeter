@@ -1,0 +1,56 @@
+body {
+	background-color: #f3f3f3;
+	align-items: center;
+	padding-top: 26px;
+	padding-bottom: 26px;
+}
+ 
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+h1, h2, h3, li{
+	font-size: 24px;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: #606060;
+}
+
+h3,li{
+	font-size: 20px;
+}
+
+li, section, header div body{
+	background-color:#fff ;
+	border: solid 2px #708090 ;
+	margin-bottom: 26px;
+}
+
+header nav ul{
+	display:flex;
+}
+
+/******CALCULATION for header items and nav
+	960= 3(2PX + 12px+ content + 2px+)
+		3(16px+ content)
+		48px+ 3(cotent)
+		912/3 = content 
+		304=content
+
+
+******/
+header nav li{
+	width: 304px;
+	list-style: none;
+	margin: 12px
+}
+
+main section div .section{
+	width: 130px;
+	display:flex;
+	margin:26px;
+}
