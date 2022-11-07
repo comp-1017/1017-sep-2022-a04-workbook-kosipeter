@@ -1,0 +1,74 @@
+body {
+	background-color: #fafafa;
+}
+ /********************
+ to use a google font, copy the css rule from the
+ google font review column just like you copied the link to the font 
+
+ *******************/
+.container {
+	margin: 0 auto;
+	width: 960px;
+	font-size: 100%;
+	line-height: 1.5;
+	text-align: center;
+	font-family: 'Vesper Libre', serif;
+	font-family: 'Miriam Libre', sans-serif;
+	font-family: 'Vesper Libre', serif;
+	
+}
+
+/**Typograph**/
+
+h1{
+	font-family: 'Vesper Libre', serif;
+	font-size:96px ;
+	letter-spacing: -1px;
+}
+
+h2{
+	font-family: 'Vesper Libre', serif;
+	font-size: 36px;
+	color: #3d4245;
+}
+
+p{
+	font-size: 21px;
+	color: #9b9d9c;
+
+}
+
+/*****
+header > p{
+	font-size: 48px;
+}
+****/
+.header-paragraph{
+	font-size: 48px;
+}
+
+
+/********layout rules********/
+.header-paragraph{
+	margin-top: 72px;
+	margin-bottom: 120px;
+}
+
+section{
+	/**margin-left: 10px;
+	margin-right: 10px;**/
+	margin-bottom: 196px;
+	padding: 0 24px;
+	/**border: 2px solid black;**/
+}
+section p {
+	margin-bottom: 24px;
+}
+
+section header img{
+	width: 100px;
+}
+
+section footer img {
+	margin: 0 12px ;
+}
