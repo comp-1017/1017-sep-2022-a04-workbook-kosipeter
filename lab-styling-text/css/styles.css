@@ -1,6 +1,8 @@
 body {
-	background-color: #fafafa;
+	background-color: #3e3e44;
+	color: #3e3e44;
 }
+
  /********************
  to use a google font, copy the css rule from the
  google font review column just like you copied the link to the font 
@@ -15,11 +17,11 @@ body {
 	font-family: 'Vesper Libre', serif;
 	font-family: 'Miriam Libre', sans-serif;
 	font-family: 'Vesper Libre', serif;
-	
+	background-color: #f0efed ;
 }
 
 /**Typograph**/
-
+	
 h1{
 	font-family: 'Vesper Libre', serif;
 	font-size:96px ;
@@ -28,47 +30,47 @@ h1{
 
 h2{
 	font-family: 'Vesper Libre', serif;
-	font-size: 36px;
+	font-size: 48px;
 	color: #3d4245;
 }
 
+h3{
+	font-size: 24px;
+	color:#84696f;
+	padding-bottom: 24px;
+}
+
+.byline{
+	font-size: 30px;
+}
+
+.intro{
+	font-size: 18px;
+	margin-top: 48px;
+	margin-bottom: 48px;
+}
+
 p{
-	font-size: 21px;
-	color: #9b9d9c;
-
-}
-
-/*****
-header > p{
-	font-size: 48px;
-}
-****/
-.header-paragraph{
-	font-size: 48px;
+	font-size: 16px;
+	padding-bottom: 12px;
 }
 
 
 /********layout rules********/
-.header-paragraph{
-	margin-top: 72px;
-	margin-bottom: 120px;
-}
 
-section{
-	/**margin-left: 10px;
-	margin-right: 10px;**/
-	margin-bottom: 196px;
-	padding: 0 24px;
-	/**border: 2px solid black;**/
-}
-section p {
-	margin-bottom: 24px;
+
+main footer{
+	letter-spacing: 96px;
 }
 
 section header img{
-	width: 100px;
+	margin-top: 24px;
+	margin-bottom: 24px;
+
 }
 
-section footer img {
-	margin: 0 12px ;
+section img{
+	margin-top: 24px;
+	margin-bottom: 24px;
 }
+
