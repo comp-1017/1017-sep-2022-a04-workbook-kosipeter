@@ -1,0 +1,19 @@
+Apply the following guidelines so that your final version of the page matches the 
+completed.jpg image.
+
+The font family for the page should be Verdana, Arial, Helvetica, sans-serif
+The font color for the page should be #333333
+
+h1 should be 24px in size and have a bold font-weight
+h2 should be 18px in size and have a bold font-weight
+
+There should be 15px of space separating the header from the top of the page
+There should be 15px of space on all sides of the header nav
+Header li elements should have a border that is 2px in width, solid in style, and #333333 in color
+Header li text should be center aligned
+
+There should be 15px of space between the header and the main
+
+Main sections should have 15px of space from the sides of the page and between them
+Main secitons should have a border that is 2px in width, solid in style, and #333333 in color
+Main sections should have 15px of space between the content and the border on all sides
