@@ -1,4 +1,4 @@
-body {
+.body {
 	background-color: #f3f3f3;
 	align-items: center;
 	padding-top: 26px;
@@ -6,10 +6,11 @@ body {
 }
  
 .container {
-	margin:0 auto;
-	width:960px;
+	margin: 0 auto;
+	width: 960px;
 	font-size: 100%;
 	line-height: 1.5;
+	align-items: center;
 }
 
 h1, h2, h3, li{
