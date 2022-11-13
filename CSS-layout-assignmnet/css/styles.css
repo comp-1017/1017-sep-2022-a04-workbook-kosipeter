@@ -64,12 +64,35 @@ header nav li{
 	
 }
 
-main section div .section{
-	width: 130px;
+main section div {
+	
 	display:flex;
 	margin:26px;
+	border-style: solid;
 }
 
-.original-header{
-		y
+.heading{
+border-style:solid  ;
+border-width: medium;
+padding: 0px;
+margin: 26px;
+border-color:  #708090;
 }
+
+
+section{
+	width: 886px;
+	border-style: solid;
+	margin: 26px;
+}
+
+.section-one-colums{
+	flex-wrap: wrap;
+	display: flex;
+	width: 270px;
+	background-color: #f8f8ff;
+	border: 1px;
+	
+}
+
+
