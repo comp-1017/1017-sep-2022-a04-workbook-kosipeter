@@ -19,7 +19,7 @@ body {
 main{
 	display: flex;
 	flex-wrap: wrap;
-	border: 2px solid black;
+	
 }
 
 ul li{
@@ -58,7 +58,7 @@ header nav ul{
 
 ******/
 header nav li{
-	width: 400px;
+	width: 304px;
 	list-style: none;
 	margin: 12px;
 	
@@ -69,6 +69,7 @@ main section div {
 	display:flex;
 	margin:26px;
 	border-style: solid;
+	flex-wrap: wrap;
 }
 
 .heading{
@@ -79,19 +80,11 @@ margin: 26px;
 border-color:  #708090;
 }
 
-
-section{
-	width: 886px;
-	border-style: solid;
-	margin: 26px;
-}
-
 .section-one-colums{
 	flex-wrap: wrap;
-	display: flex;
 	width: 270px;
 	background-color: #f8f8ff;
-	border: 1px;
+	border: 0px;
 	
 }
 
