@@ -64,7 +64,15 @@ header nav li{
 	
 }
 
-main section div {
+main section {
+	border: solid;
+	display:flex;
+	margin:26px;
+	border-style: solid;
+	flex-wrap: wrap;
+}
+
+div{
 	
 	display:flex;
 	margin:26px;
@@ -73,19 +81,44 @@ main section div {
 }
 
 .heading{
-border-style:solid  ;
-border-width: medium;
-padding: 0px;
-margin: 26px;
-border-color:  #708090;
+	border-style: solid ;
+	border-width: 2px;
+	width: 960px;
+	padding: 0px;
+	margin: 26px;
+	border-color:  #708090;
+
 }
 
-.section-one-colums{
-	flex-wrap: wrap;
+.image{
 	width: 270px;
+	flex-wrap: wrap;
+}
+
+.section-one-columns{
+	flex-wrap: wrap;
 	background-color: #f8f8ff;
 	border: 0px;
+	list-style: none;
+	margin: 12px;
+	
 	
 }
 
 
+.section-two-columns{
+	flex-wrap: wrap;
+	border: medium;
+	border: 0px;
+	background-color: #f8f8ff;
+	margin: 12px;
+}
+
+.section-three-columns{
+	border: medium;
+	border: 0px;
+	background-color: #f8f8ff;
+	text-align: center;
+	margin: 26px;
+
+}
