@@ -3,18 +3,32 @@ body {
 	align-items: center;
 	padding-top: 26px;
 	padding-bottom: 26px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
 }
  
+
 .container {
-	margin:0 auto;
-	width:960px;
+	margin: 0 auto;
+	width: 960px;
 	font-size: 100%;
 	line-height: 1.5;
+	align-items: center;
+}
+
+main{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+ul li{
+	padding: auto;
 }
 
 h1, h2, h3, li{
 	font-size: 24px;
-	text-align: center;
+	align-items: center;
 	padding-top: 12px;
 	padding-bottom: 12px;
 	color: #606060;
@@ -35,7 +49,7 @@ header nav ul{
 }
 
 /******CALCULATION for header items and nav
-	960= 3(2PX + 12px+ content + 2px+)
+  960=  3(2PX + 12px+ content + 2px+)
 		3(16px+ content)
 		48px+ 3(cotent)
 		912/3 = content 
@@ -46,11 +60,65 @@ header nav ul{
 header nav li{
 	width: 304px;
 	list-style: none;
-	margin: 12px
+	margin: 12px;
+	
 }
 
-main section div .section{
-	width: 130px;
+main section {
+	border: solid;
 	display:flex;
 	margin:26px;
+	border-style: solid;
+	flex-wrap: wrap;
+}
+
+div{
+	
+	display:flex;
+	margin:26px;
+	border-style: solid;
+	flex-wrap: wrap;
+}
+
+.heading{
+	border-style: solid ;
+	border-width: 2px;
+	width: 960px;
+	padding: 0px;
+	margin: 26px;
+	border-color:  #708090;
+
+}
+
+.image{
+	width: 270px;
+	flex-wrap: wrap;
+}
+
+.section-one-columns{
+	flex-wrap: wrap;
+	background-color: #f8f8ff;
+	border: 0px;
+	list-style: none;
+	margin: 12px;
+	
+	
+}
+
+
+.section-two-columns{
+	flex-wrap: wrap;
+	border: medium;
+	border: 0px;
+	background-color: #f8f8ff;
+	margin: 12px;
+}
+
+.section-three-columns{
+	border: medium;
+	border: 0px;
+	background-color: #f8f8ff;
+	text-align: center;
+	margin: 26px;
+
 }
