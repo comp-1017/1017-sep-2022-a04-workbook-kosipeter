@@ -26,7 +26,7 @@ ul li{
 	padding: auto;
 }
 
-h1, h2, h3, li{
+h1, h2, li{
 	font-size: 24px;
 	align-items: center;
 	padding-top: 12px;
@@ -34,7 +34,9 @@ h1, h2, h3, li{
 	color: #606060;
 }
 
-h3,li{
+
+
+li{
 	font-size: 20px;
 }
 
@@ -44,8 +46,11 @@ li, section, header div body{
 	margin-bottom: 26px;
 }
 
+
+
 header nav ul{
 	display:flex;
+	
 }
 
 /******CALCULATION for header items and nav
@@ -60,7 +65,9 @@ header nav ul{
 header nav li{
 	width: 304px;
 	list-style: none;
-	margin: 12px;
+	margin-left: 26px;
+	padding: 12px;
+
 	
 }
 
@@ -68,57 +75,193 @@ main section {
 	border: solid;
 	display:flex;
 	margin:26px;
-	border-style: solid;
 	flex-wrap: wrap;
 }
 
-div{
+/***
+960= 2(2px) + 3(26px + 2px + 0 + content +2px + 0) * 26px
+960= 4 + 3(30) +  3 * content + 26px
+960= 120 + 3 content 
+840= 3 content 
+280 = content  
+
+**/
+
+ h3 {
+	font-size: 20px;
+	width: 280px;
+	display: flex; 
+	flex-wrap: wrap;
+	list-style: none;
+	text-align: center;
+	margin: 26px;
+	padding: 12px;
+	text-align: center;
+}
+
+
+
+img{
+	width: 270px;
+}
+
+/**div{
 	
 	display:flex;
 	margin:26px;
 	border-style: solid;
 	flex-wrap: wrap;
+}**/
+
+section{
+	display: flex;
+	flex-wrap: wrap;	
+	text-align: center;
+	border-style: solid ;
+	border-width: 2px;
+	padding: 0px;
+	margin-left: 26px;
+	border-color:  #708090;
+	
+	
+	
 }
 
 .heading{
 	border-style: solid ;
 	border-width: 2px;
 	width: 960px;
-	padding: 0px;
+	
 	margin: 26px;
 	border-color:  #708090;
 
 }
 
-.image{
-	width: 270px;
+
+
+.motion-picture{
+	text-align: center;
+	border: solid 2px #708090;
+	width: 280px;
+	align-items: center;
+	margin: 26px;
+}
+.wrath-of-khan{
+	text-align: center;
+	border: solid 2px #708090;
+	width: 280px;
+	align-items: center;
+	margin: 26px;
+}
+.search-for-spock{
+	text-align: center;
+	border: solid 2px #708090;
+	width: 280px;
+	align-items: center;
+	margin: 26px;
+}
+.voyage-home{
+	text-align: center;
+	border: solid 2px #708090;
+	width: 280px;
+	align-items: center;
+	margin: 26px;
+}
+.final-home{
+	text-align: center;
+	border: solid 2px #708090;
+	width: 280px;
+	align-items: center;
+	margin: 26px;
+}
+.undiscovered-country{
+	text-align: center;
+	border: solid 2px #708090;
+	width: 280px;
+	align-items: center;
+	margin: 26px;
+}
+.section-one-columns {
+	display: flex;
 	flex-wrap: wrap;
+		
 }
 
-.section-one-columns{
-	flex-wrap: wrap;
-	background-color: #f8f8ff;
-	border: 0px;
-	list-style: none;
-	margin: 12px;
-	
-	
-}
 
 
 .section-two-columns{
+	display: flex;
 	flex-wrap: wrap;
-	border: medium;
-	border: 0px;
-	background-color: #f8f8ff;
-	margin: 12px;
+}
+/**Calculation
+960= 4 + 2(20) + 26
+960= 4 + 40 + 26
+960= 70 (2 content)
+960 - 70 = 890
+890 / 2 = 445
+
+*/
+
+.generations{
+	text-align: center;
+	border: solid 2px #708090;
+	width: 445px;
+	align-items: center;
+	margin: 26px;
+	
+}
+.first-contact{
+	text-align: center;
+	border: solid 2px #708090;
+	width: 445px;
+	align-items: center;
+	margin: 26px;
+}
+.insurrection{
+	text-align: center;
+	border: solid 2px #708090;
+	width: 445px;
+	align-items: center;
+	margin: 26px;
+}
+.nemesis{
+	text-align: center;
+	border: solid 2px #708090;
+	width: 445px;
+	align-items: center;
+	margin: 26px;
 }
 
-.section-three-columns{
-	border: medium;
-	border: 0px;
-	background-color: #f8f8ff;
-	text-align: center;
-	margin: 26px;
 
+
+
+
+.section-three-columns{
+	display: flex;
+	flex-wrap: wrap;
+		
+}
+
+.star-trek{
+	text-align: center;
+	border: solid 2px #708090;
+	width: 280px;
+	align-items: center;
+	margin: 26px;
+}
+
+.into-darkness{
+	text-align: center;
+	border: solid 2px #708090;
+	width: 280px;
+	align-items: center;
+	margin: 26px;
+}
+
+.beyond{
+	text-align: center;
+	border: solid 2px #708090;
+	width: 280px;
+	align-items: center;
+	margin: 26px;
 }
