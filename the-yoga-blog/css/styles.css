@@ -1,0 +1,57 @@
+body {
+	background-color: white;
+}
+ 
+.container {
+	margin: 0 auto;
+	width: 960px;
+	font-size: 100%;
+	line-height: 1.5;
+	text-align: center;
+
+}
+/*the default fill for background is repeat
+repeat is in both x ND Y axis
+repeat-x only  **/
+
+.page-header{
+	background: url(../img/header-background.png) repeat-x;
+}
+
+.hidden{
+	display: none;
+}
+
+
+/** convert pt to pixels
+    pt* 1.33333 px
+	48*1.33333= 64px
+	*/
+
+
+h2{
+	font-size: 64px;
+
+}
+
+footer h3{
+	font-size: 48px ;
+}
+
+h2, h3 {
+	color: #0b777b;
+}
+
+section >
+span{
+
+}
+strong{
+	color: #094244;
+}
+
+
+section{
+	margin-top: 70px;
+}
+/**element1 element2  */
