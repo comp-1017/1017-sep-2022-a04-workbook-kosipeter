@@ -7,12 +7,14 @@ body {
 	width:960px;
 	font-size: 100%;
 	line-height: 1.5;
+	font-family: 'Raleway', sans-serif;
 	
 }
 
+/* styling within the header */
 header{
-	height: 70px;
-	background-color: #ffff;
+	height: 70px; /*height gives a phyiscal size to the element */
+	background-color: #fff; /* #ffffff, all letters the same so short cut */
 	border-bottom: 1px solid #959372;
 }
 
@@ -20,17 +22,44 @@ header > h1{
 	display: none;
 }
 
+/* create a specific class for hiding items on your page
+   using a class allows you to reuse the rule wherever it is require
+		whereas specifying on an element selector may meaning repeating the rule
+
+.hidden{
+	display:none;
+}
+*/
+
 header > img{
-	margin: 14px;
+	margin: 8px;
 } 
+
+/* add the pattern behind the nav area
+	since the nav tag has the banner class, I decided to encapusalate the
+	   nav within a div tag and place the pattern class on the div 
+*/
 .navpattern{
-	background: url(../img/pattern-bg.gif)repeat ;
-	padding: 60px;
+	background: url(../img/pattern-bg.gif) repeat ;
+	padding-top: 60px;
+	height: 690px;
 }
 
+
+/* styling on the banner
+	move the banner down by using the margin-top
+	add the background image
+	adjust height (content height) to image size
+	add padding to move the context WITHIN the box to
+	     the right.
+	need to adjust the phyiscal height of the context to
+		account for the padding that was added to move
+		the menu/title down 60 px;
+		480 (image size) - 60 (padding) = 420 for the content
+*/
 .banner{
-	margin-top: 60px;
-	padding: 50px 0 0 680px;
+	/*margin-top: 60px;**/
+	padding: 60px 0 0 690px;
 	background-image: url(../img/flower-banner.jpg);
 	height: 420px;
 	
@@ -42,13 +71,21 @@ header > img{
 
 }
 
+/* style the anchor tags
+
+*/
+
 .banner a {
-	text-decoration: none; 
+	text-decoration: none;/* removes the underline from the anchor tag */ 
 	color: #faf9f8;
 	font-size: 18px;
 }
 
 
+/* use the hover psuedo class of the anchor tag to alter the color
+		of the anchor tag text when the cursor is moved over the tag
+   this will draw the user attention to the link
+*/
 .banner a:hover{
 	color:#f9ea4f;
 	font-weight: bolder;
@@ -57,6 +94,6 @@ header > img{
 }
 
 .banner li{
-	line-height: 40px;
+	line-height: 40px;/* sets the phyiscal line height of the element */
 }
 
