@@ -1,0 +1,129 @@
+body {
+	background-color: white;
+	
+}
+ 
+.container {
+	margin:0 auto;
+	width:960px;
+	
+    
+	font-family: 'Raleway', sans-serif;
+	color: #f1f7f6;
+	font-size: 100%;
+	line-height: 1.5;
+	
+}
+
+.visuallyhidden {
+	display: none;
+}
+/*******************
+	header
+********************/
+
+header{
+	background-color: #028568;
+}
+
+header .logo{
+	margin: 10px;
+	
+}
+nav a {
+	text-decoration: none;
+	color: #f1f7f6;
+}
+
+/*add additional text stylizing and spacing to the li element */
+
+nav li {
+	font-size: 18px;
+	/* line height equals the height of the header element and it vertically canters the text
+	check photoshop*/
+	line-height: 75px;
+	margin-right: 30px;
+}
+nav ul{
+	display: flex;
+}
+
+header{
+	display: flex;
+}
+
+header nav{
+	margin-left: 206px;
+}
+
+header a:hover{
+	border-bottom: 2px solid #abddd5;
+	font-weight: bolder;
+}
+
+.banner{
+	font-size: 18px;
+	background-color: #000;
+	background-image: url(../img/island-bg.jpg);
+	display: flex;
+}
+
+
+.banner h2{
+	margin-bottom: 36px;
+	font-family: 'Alegreya' serif;
+	font-size: 26px;
+}
+
+.banner .left-column{
+	width: 414px;/* 578px-164px padding*/
+	padding: 85px 82px 0 82px;
+	text-align: center;
+	margin-bottom: 58px;
+
+}
+
+
+.banner .bar{
+		width: 414px;
+		height: 8px;
+		margin-bottom: 36px;
+		background-color: #abddd5;
+}
+
+.banner .right-column{
+	width: 216px;/*382px - 2(83)166px*/									
+	padding: 85px 83px 0 83px;
+	/*for the background color, we will specify the color using rgba
+	rgba is red green blue transparncy ( 0.0< x < 1.0)*/
+	/*add a background color with opacity*/
+	background-color: rgba(171, 221, 213, 0.8);
+}
+
+.right-column h2{
+	font-size: 36px;
+	font-family: 'Alegreya' serif;
+	color: #f1f7f6;
+	line-height: 44px;
+	margin-bottom: 35px;
+}
+
+.right-column a{
+	padding: 9px 33px 9px 43px;
+	text-decoration: none;
+	text-align: center;
+	color: #028568;
+	background-color: #ffff;
+	border-radius: 6px;
+	margin-ra: ;
+
+
+}
+
+.right-column a:hover{
+	font-weight: bolder;
+	color: #028568;
+	/*background-color: chocolate;*/
+	border-bottom: 2px solid black;
+
+}
