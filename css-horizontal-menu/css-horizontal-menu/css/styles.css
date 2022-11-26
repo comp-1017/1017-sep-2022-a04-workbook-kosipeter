@@ -109,13 +109,18 @@ header a:hover{
 }
 
 .right-column a{
-	padding: 9px 33px 9px 43px;
+	padding: 9px 38px;
 	text-decoration: none;
 	text-align: center;
 	color: #028568;
-	background-color: #ffff;
+	background-color: #fff;
+	/* round the corners of the element */
 	border-radius: 6px;
-	margin-ra: ;
+	margin-bottom: 60px;
+	/* an anchor element is an in-line element which margin-bottom does not directly affect
+	   solution: change the display style of the element to be blocked
+	*/
+	display: inline-block;
 
 
 }

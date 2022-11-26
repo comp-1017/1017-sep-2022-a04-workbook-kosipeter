@@ -1,0 +1,129 @@
+body {
+	background-color: white;
+	text-align: center;
+}
+ 
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.2;
+	font-family: 'EB Garamond', serif;
+	
+}
+
+/*  COLOUR PALETTE 
+
+Create a colour palette by using the 
+Eyedropper [I] and the Type Tool [T]
+in Photoshop and copying the hex codes
+from the Colour Picker or Colour Panel.
+
+Dark Grey BG       #xxxxxx;
+Light Grey Border  #xxxxxx;
+Yellow Hyperlinks  #xxxxxx;
+Off-White Text     #xxxxxx;
+Footer Text        #xxxxxx;
+
+*/
+
+header{
+	background-color: #3f3f40;
+	display: flex;
+	padding-top: 20px;
+}
+
+nav ul{
+	display: flex;
+	margin-left: 75px;
+	
+	margin-bottom: 38px;
+
+}
+
+header nav{
+	margin-left: 76px;
+}
+nav a{
+	color: #f2dea0;
+	text-decoration: none;
+	
+}
+
+nav li{
+	font-size: 32px;
+	margin-right: 30px;
+}
+
+header .logo{
+	margin-left: 20px ;
+	margin-bottom: 38px;
+
+}
+header a:hover{
+	border-bottom: 2px solid #f2dea0;
+	font-weight: bolder;
+}
+
+.tea{
+	background-image: url(../img/tea-bag-bg.png);
+	display: flex;
+	height: 756px;
+}
+
+.tea-cup{
+	text-align: center;
+	width:290px ;
+	padding-left: 625px;
+	padding-top: 100px;
+	
+}
+
+div h2  {
+	color: white;
+	font-size: 40px;
+	margin-bottom: 35px;
+}
+
+p {
+	color: white;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 21.3px;
+	
+}
+.paragraph{
+	margin-bottom: 30px;
+	display: inline-block;
+	text-align: justify;
+}
+div ul{
+	
+	line-height: 29px;
+}
+
+div a{
+	color: #f2dea0;
+	
+}
+div a:hover{
+	border-bottom: 2px solid #f2dea0;
+	font-weight: bolder;
+}
+
+footer{
+	background-color: #3f3f40;
+}
+
+footer h3{
+	font-size: 21.3px;
+	color: white;
+	padding-top: 24px;
+	margin-bottom: 16px;
+}
+
+footer .paragraph {
+	color: white;
+	font-size: 16px;
+}
