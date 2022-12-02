@@ -5,9 +5,36 @@ body{
 
 .container{
     margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
     width: 960px;
     font-size:100%;
     line-height: 1.5;
     background-image: url(../img/body-bg.png);   
 }
 
+header{
+    background-color: white;
+    display: flex;
+}
+
+nav ul{
+    display: flex;    
+    
+    
+}
+
+nav a{
+    color: #f59444;
+}
+
+nav li{
+    font-size: 24px ;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 66.6px; 
+    margin-right: 24px;   
+}
+
+.banner{
+    background-image: url(../img/rving-banner.png);
+}
