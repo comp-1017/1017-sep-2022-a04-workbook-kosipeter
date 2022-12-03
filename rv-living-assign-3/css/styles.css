@@ -13,8 +13,12 @@ body{
     background-image: url(../img/body-bg.png);   
 }
 
+.visuallyhidden {
+	display: none;
+}
+
 header{
-    background-color: white;
+    background-color: #ffffff;
     display: flex;
 }
 
@@ -37,4 +41,76 @@ nav li{
 
 .banner{
     background-image: url(../img/rving-banner.png);
+}
+
+h1{
+  font-family: 'Heebo', sans-serif;
+}
+
+p{
+    font-size: 24px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: none;
+    line-height: 36px;
+    padding-bottom: 40px ;
+    text-align: center;
+}
+.resources{
+    font-size: 72px;
+    color: #6c7355;
+}
+article {
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-style:double;
+    border-radius: 2px;
+    margin-bottom: 34px;
+    width: 959px;
+    height: 490px;
+}
+
+article div{
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+image{
+    width: 253px;
+    height: 305px;
+}
+
+h2{
+  font-family: 'Heebo', sans-serif;
+  background-color: #f59444;
+  color: #ffffff;
+  font-size: 34.6px;
+  padding-left: 23px;
+  padding-top: 21px;
+  padding-bottom: 24px;
+}
+
+article footer{
+    background-color: #e4e4e4;
+}
+
+.one{
+    display: flex;
+}
+.two{
+    display: flex;
+}
+.three{
+    display: flex;
+}
+
+footer{
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: #3b4834;
+}
+
+footer ul{
+    display: flex;
 }
