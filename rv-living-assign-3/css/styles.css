@@ -7,7 +7,7 @@ body{
     margin: 0 auto;
     padding-left: 32px;
     padding-right: 32px;
-    width: 960px;
+    width: 1024px;
     font-size:100%;
     line-height: 1.5;
     background-image: url(../img/body-bg.png);   
@@ -22,6 +22,14 @@ header{
     display: flex;
 }
 
+.rv{
+    background-color: #3b4834;
+    width: 438px;
+    height: 302px;
+    margin-top: 73px;
+    padding-top: 73px;
+}
+
 nav ul{
     display: flex;    
     
@@ -30,31 +38,45 @@ nav ul{
 
 nav a{
     color: #f59444;
+    text-decoration: none;
 }
 
 nav li{
     font-size: 24px ;
     font-family: 'Noto Sans', sans-serif;
     line-height: 66.6px; 
-    margin-right: 24px;   
+    margin-right: 24px;  
+     
 }
 
 .banner{
-    background-image: url(../img/rving-banner.png);
+    background-image: url(../img/rving-banner.png) ;
 }
 
-h1{
+h2{
   font-family: 'Heebo', sans-serif;
 }
 
-p{
-    font-size: 24px;
+article p{
+    padding-bottom: 40px;    
+    display: block;
+}
+
+.paragraph{
+    display: block; 
+    font-size: 13px;  
     font-family: 'Noto Sans', sans-serif;
     font-style: none;
-    line-height: 36px;
+    font-weight: bold;
+    /**line-height: 36px;**/
     padding-bottom: 40px ;
-    text-align: center;
+    text-align: left;
+    flex-wrap: wrap;
+    /**margin-left: 349px;
+    padding-bottom: 124px;**/
 }
+
+
 .resources{
     font-size: 72px;
     color: #6c7355;
@@ -65,8 +87,8 @@ article {
     border-style:double;
     border-radius: 2px;
     margin-bottom: 34px;
-    width: 959px;
-    height: 490px;
+    width: 960px;
+    height: 495px;
 }
 
 article div{
@@ -81,7 +103,7 @@ image{
     height: 305px;
 }
 
-h2{
+h3{
   font-family: 'Heebo', sans-serif;
   background-color: #f59444;
   color: #ffffff;
@@ -93,24 +115,80 @@ h2{
 
 article footer{
     background-color: #e4e4e4;
+    height: 55px;
+    padding-top: 20px;
+    padding-bottom: 18px;
 }
 
 .one{
     display: flex;
+    
 }
 .two{
     display: flex;
+    
 }
 .three{
     display: flex;
+    
+}
+
+span{    
+    font-style:italic;
+    font-size: 21.3px;
+	color: #6c7355;
+	font-weight: bold ;
+}
+
+
+article footer span{
+	margin: 0 24px;
+}
+
+footer img{
+	margin: 0 5px;
+}
+
+
+strong{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+	color:#6c7355;
+	font-weight: bolder;
 }
 
 footer{
     padding-left: 32px;
     padding-right: 32px;
     background-color: #3b4834;
+   
 }
 
 footer ul{
     display: flex;
+    text-decoration: none;
+    margin-left: 290px;
+    padding-right: 80px;
 }
+
+footer h2{
+    font-size: 52px;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    color: #ffffff;    
+}
+
+footer ul a{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    margin-right: 82px;
+    text-decoration: none;
+}
+
+footer ul li{
+    margin-bottom: 30px;
+}
+ footer div{
+    background-color: #6c7355;
+    width: 960px;
+ }
