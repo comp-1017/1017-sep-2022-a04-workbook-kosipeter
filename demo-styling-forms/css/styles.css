@@ -58,3 +58,81 @@ body {
 .hidden {
     display: none;
 }
+
+
+/**************
+  form styling
+****************/    
+
+.setflex{
+    display: flex;
+}
+
+
+.onehalf{
+    width: 47%;
+    margin-right: 3%;
+}
+
+h2{
+    font-size: 46px;
+    font-weight: bold;
+}
+
+input,
+button{
+    background-color: #efefef;
+    border: 1px solid #c4c4c4;
+    line-height: 30px;
+    width: 312px;
+    padding: 0 36px;
+}
+
+textarea{
+    background-color: #efefef;
+    border: 1px solid #c4c4c4;
+    line-height: 30px;
+    width: 312px;
+    padding: 0 36px;
+    max-height: 150px;
+    min-height: 150px;
+}
+
+label{
+    font-family: verdana;
+    display: block;
+    font-size: 20px;
+    color: #cacaca;
+    margin-top: 24px ;
+}
+
+.your-name input{
+    background-image: url(../img/form-name-icon.gif);
+    background-repeat: no-repeat;
+}
+
+.email-address input{
+    background-image: url(../img/form-email-icon.gif);
+    background-repeat: no-repeat;
+}
+
+.phone-number input{
+    background-image: url(../img/form-phone-icon.gif);
+    background-repeat: no-repeat;
+}
+
+.comment-message input{
+    background-image: url(../img/form-message-icon.gif);
+    background-repeat: no-repeat;
+}
+
+.submit-button button{
+    margin-top: 24px;
+    padding: 0;
+    text-align: center;
+    color: #8a8a8a;
+}
+
+.submit-button button:hover{
+    cursor: pointer;
+}
