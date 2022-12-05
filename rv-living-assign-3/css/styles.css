@@ -22,12 +22,30 @@ header{
     display: flex;
 }
 
+.banner{
+    background-image: url(../img/rving-banner.png);
+    display: flex;
+}
 .rv{
     background-color: #3b4834;
-    width: 438px;
+    width: 440px;
     height: 302px;
-    margin-top: 73px;
-    padding-top: 73px;
+    margin-top: 75px;
+    margin-bottom: 75px;    
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.rv h2 {
+    font-size: 90px;    
+    font-family: 'Heebo', sans-serif;
+
+}
+.rv p{
+    font-size: 24px;
+    
+    text-align: left;
 }
 
 nav ul{
@@ -49,9 +67,7 @@ nav li{
      
 }
 
-.banner{
-    background-image: url(../img/rving-banner.png) ;
-}
+
 
 h2{
   font-family: 'Heebo', sans-serif;
@@ -87,8 +103,9 @@ article {
     border-style:double;
     border-radius: 2px;
     margin-bottom: 34px;
-    width: 960px;
+    width: 1024px;
     height: 495px;
+    
 }
 
 article div{
@@ -111,6 +128,7 @@ h3{
   padding-left: 23px;
   padding-top: 21px;
   padding-bottom: 24px;
+  
 }
 
 article footer{
@@ -161,6 +179,7 @@ footer{
     padding-left: 32px;
     padding-right: 32px;
     background-color: #3b4834;
+    
    
 }
 
@@ -183,12 +202,21 @@ footer ul a{
     font-size: 16px;
     margin-right: 82px;
     text-decoration: none;
+    color: #ffffff;
 }
 
 footer ul li{
     margin-bottom: 30px;
 }
- footer div{
+
+ .copyright{
     background-color: #6c7355;
-    width: 960px;
+    width: 1024px;
+    height: 75px;
+    text-align: center;
+    font-size: 21.3px;
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 18px;
+    padding-bottom: 18px;
  }
+
