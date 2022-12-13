@@ -5,8 +5,13 @@
     <title>CSS Introduction</title>
     <meta charset="utf-8">
     <meta name="author" content="kosisochukwu chukwuemeka-peter">
-    <!--<link href="css/reset.css" rel="stylesheet">-->
-    <!--<link href="css/styles.css" rel="stylesheet">-->
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/camping-passes.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
   </head>
 
 
@@ -20,7 +25,7 @@
           <h1 class="visuallyhidden">RVing</h1>
           <nav> 
               <ul>
-                  <li><a href="index.html">Home</a></li>
+                  <li class="visuallyhidden"><a href="index.html">Home</a></li>
                   <li><a href="#">CAMPING PASSES</a></li>
                   <li><a href="checkout.html">CHECKOUT</a></li>
                   
@@ -28,11 +33,11 @@
           </nav>   
       </header>
       <main>
-        <section>
+        <section class="banner">
             <h2>Camping Passes</h2>
         </section>
         
-        <section>
+        <section class="passes">
           <h3>Day Pass </h3>
           <ul>
             <li>Campers 18 years and older must have a pass</li>
@@ -67,7 +72,7 @@
          
         </section>
         
-        <section>
+        <section class="passes">
           <h3>Annual Pass </h3>
           <ul>
             <li> Campers 18 years and older must have a pass</li>
@@ -101,48 +106,57 @@
           </table>
         </section>
 
-        <article>
-          <h3>Bow Valley </h3>                  
-          Bow Valley Provincial Park
-          Camping Season: April 14 - Oct 29
-          <a href="#">Reserve</a>
-        </article>
+        <h2>Available Camping Sites</h2>
 
-        <article>
-          <h3>Castle River Bridge </h3>
-          Castle Provincial Park
-          Camping Season: May 18 - Oct 2
-          <a href="#">Reserve</a>
-        </article>
+      <article class="camping-sites">
+          <div>
+            <h3>Bow Valley </h3> 
+              <img src="img/bow-valley.png" alt="bow valley">                 
+              Bow Valley Provincial Park
+              Camping Season: April 14 - Oct 29
+              <a href="#">Reserve</a>
+          </div>
 
-        <article>          
-        <h3>Gooseberry </h3>
-        Gooseberry Provincial Recreation Area
-        Camping Season: May 1 - Oct 9
-        <a href="#">Reserve</a>
-        </article>
+          <div>
+            <h3>Castle River Bridge </h3>
+              <img src="img/castle-provincial-park.png" alt="castle river bridge">
+              Castle Provincial Park
+              Camping Season: May 18 - Oct 2
+              <a href="#">Reserve</a>
+          </div>
 
-        <article>
-          <h3>Icefields Centre RV </h3>
-           Japer
-           Camping Season: May 18 - Oct 10
-          <a href="#">Reserve</a>
-        </article>
+          <div>          
+            <h3>Gooseberry </h3>
+              <img src="img/gooseberry-provincial.png" alt="gooseberry">
+              Gooseberry Provincial Recreation Area
+              Camping Season: May 1 - Oct 9
+              <a href="#">Reserve</a>
+          </div>
 
-        <article>
-          <h3>Two Jack Main </h3>
-          Banff
-          Camping Season: June 23 - Sept 5
-          <a href="#">Reserve</a>
-        </article>
+          <div>
+            <h3>Icefields Centre RV </h3>
+              <img src="img/jasper.png" alt="jasper field">
+              Japer
+              Camping Season: May 18 - Oct 10
+              <a href="#">Reserve</a>
+          </div>
 
-        <article>
-          <h3>Whistlers </h3>
-          Jasper
-          Camping Season: May 4 - Oct 10
-          <a href="#">Reserve</a>
-        </article>
-        
+          <div>
+            <h3>Two Jack Main </h3>
+              <img src="img/banff.png" alt="banff">
+              Banff
+              Camping Season: June 23 - Sept 5
+              <a href="#">Reserve</a>
+          </div>
+
+          <div>
+            <h3>Whistlers </h3>
+              <img src="img/jasper-whistlers.png" alt="jasper-whistlers">
+              Jasper
+              Camping Season: May 4 - Oct 10
+              <a href="#">Reserve</a>
+          </div>
+      </article>  
       </main>
       <footer class="">
         <h2 class="rv-life" >RVing Life</h2>

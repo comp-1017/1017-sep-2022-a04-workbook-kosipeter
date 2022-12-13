@@ -1,0 +1,126 @@
+body{
+    background-color: white;
+      
+}
+
+.container{
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 1027px;
+    font-size:100%;
+    line-height: 1.5;
+    background-image: url(../img/body-bg.png);   
+}
+
+.visuallyhidden {
+	display: none;
+}
+
+header{
+    background-color: #ffffff;
+    display: flex;
+}
+
+header nav a:hover{
+    font-weight: bolder;
+	color: #f59444;
+    
+}
+
+nav a{
+    color: #f59444;
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;    
+        
+}
+
+.banner{ 
+    width: 960px;      
+    background-image: url(../img/camping-passes-banner.png);
+    display: flex;
+}
+
+h2 {
+    font-size: 54pt;
+    color: #6c7353;
+}
+
+section h3{
+    color: #ffffff;
+    font-size: 26pt;
+    background-color: #f59444;
+    padding-left: 22px;
+}
+
+section{
+   background-color: #ffffff; 
+}
+
+
+.passes{
+    border:  2px solid black;
+    width: 960px;
+    margin-top: 36px;
+}
+
+section li{
+    font-size: 18pt;
+    text-align: left;
+    font-family: 'Noto Sans', sans-serif;
+    display: inline-block;
+}
+
+table{
+     width: 443px;
+     float: none;
+}
+
+th{
+   text-align: left; 
+
+}
+
+table, th, td{
+    border: 1px solid #dddddd;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+article div{
+    border: 2px solid black;
+    border-radius: 2px;
+    width: 301px;
+    height: 497px;
+    margin-right: 29px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+}
+
+article div h3{
+    color: #ffffff;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    line-height: 30pt;
+    font-size: 22pt;
+    background-color: #f59444;
+    width: 270px;
+    height: 72px;
+    padding-top: 22px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 24px;
+}
+
+img{
+    margin-left: 32px ;
+    margin-right: 32px ;
+} 
