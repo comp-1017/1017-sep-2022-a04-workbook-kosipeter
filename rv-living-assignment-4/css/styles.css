@@ -1,0 +1,279 @@
+body{
+    background-color: white;
+      
+}
+
+.container{
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 1024px;
+    font-size:100%;
+    line-height: 1.5;
+    background-image: url(../img/body-bg.png);   
+}
+
+.visuallyhidden {
+	display: none;
+}
+
+header{
+    background-color: #ffffff;
+    display: flex;
+}
+
+header nav a:hover{
+    font-weight: bolder;
+	color: #f59444;
+    
+}
+.banner{
+    
+    width: 1024px;
+    background-image: url(../img/rving-banner.png);
+    display: flex;
+}
+
+
+
+
+.rv{
+    background-color: #3b4834;
+    width: 440px;
+    height: 302px;
+    margin-top: 75px;
+    margin-bottom: 75px;    
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 28px ;
+    padding-right: 28px;
+}
+
+.rv a{
+    color: #3b4834;
+    font-size: 34px;        
+    background-color: #ffffff;
+    border: 2px solid black;
+    text-align: center;	
+	border-radius: 6px;
+    height: 30px;
+    width: 220px;
+    text-decoration: none;	    
+    padding-left: 100px ;
+    padding-right: 100px;
+    padding-top: 20px ;
+    padding-bottom: 40px ;
+    display: inline-block;
+    margin-left:0;
+    margin-right: 600px ;
+}
+
+.rv h2 {
+    font-size: 80px;    
+    font-family: 'Heebo', sans-serif;
+    text-align: left;
+}
+.rv p{
+    font-size: 24px;    
+    text-align: left;
+}
+
+
+
+
+.rv a:hover{
+    font-weight: bolder;
+	color: #3b4834;
+}
+
+nav ul{
+    display: flex;    
+    
+    
+}
+
+nav a{
+    color: #f59444;
+    text-decoration: none;
+}
+
+nav li{
+    font-size: 24px ;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 66.6px; 
+    margin-right: 24px;  
+     
+}
+
+
+
+h2{
+  font-family: 'Heebo', sans-serif;
+}
+
+article p{
+    padding-bottom: 40px;    
+    display: block;
+}
+
+.paragraph{
+    display: block; 
+    font-size: 13px;  
+    font-family: 'Noto Sans', sans-serif;
+    font-style: none;
+    font-weight: bold;
+    padding-bottom: 40px ;
+    text-align: left;
+    flex-wrap: wrap;
+    
+}
+
+
+.resources{
+    font-size: 72px;
+    color: #6c7355;
+}
+article {
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-style:double;
+    border-radius: 2px;
+    margin-bottom: 34px;
+    width: 1024px;
+    height: 495px;
+    
+}
+
+article div{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+image{
+    width: 253px;
+    height: 305px;
+}
+
+h3{
+  font-family: 'Heebo', sans-serif;
+  background-color: #f59444;
+  color: #ffffff;
+  font-size: 34.6px;
+  padding-left: 23px;
+  padding-top: 21px;
+  padding-bottom: 24px;
+  
+}
+
+article footer{
+    background-color: #e4e4e4;
+    height: 55px;
+    padding-top: 24px;
+    padding-bottom: 18px;
+}
+
+
+
+.one{
+    display: flex;
+    padding-bottom: 15px;
+}
+.two{
+    display: flex;
+    
+}
+.three{
+    display: flex;
+    
+}
+
+span{    
+    font-style:italic;
+    font-size: 21.3px;
+	color: #6c7355;
+	font-weight: bold ;
+}
+
+
+article footer span{
+	margin: 0 24px;
+}
+
+footer img{
+	margin: 0 5px;
+}
+
+
+strong{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+	color:#6c7355;
+	font-weight: bolder;
+}
+
+footer{
+    
+    background-color: #3b4834;
+    width: 1024px;
+    height: 243px;
+   
+       
+}
+
+footer nav{
+    padding-left: 340px;
+    padding-right: 340px;
+    
+}
+
+footer li{
+    padding-left: 10px;
+}
+
+footer ul{    
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    /**margin-top: 30px;
+    margin-bottom: 52px;
+    margin-left: 290px;
+    margin-right: 290px;**/
+    
+}
+
+footer h2{
+    font-size: 52px;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    color: #ffffff;    
+}
+
+footer ul a{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16.2px;    
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+
+
+ .copyright{
+    background-color: #6c7355;
+    width: 1024px;
+    height: 75px;
+    text-align: center;
+    font-size: 21.3px;
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 18px;
+    padding-bottom: 18px;
+ }
+
+footer nav a:hover{
+    font-weight: bolder;
+	color: #ffffff,
+}
+
