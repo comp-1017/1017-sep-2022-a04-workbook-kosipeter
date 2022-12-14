@@ -50,14 +50,36 @@ nav ul{
         
 }
 
+
+section div li{
+    list-style: none;
+    display: block;
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 25px;   
+    
+}
+
+section div li:before{
+    content: "\2022";
+}
+
+
+
 section ul {
-    text-align: left; 
-        
-    font-family: 'Noto Sans', sans-serif;   
+    text-align: left;  
+    margin-top: 25px;   
+}
+
+.table{
+    display: flex;
+    
 }
 
 table{
-    right: 495px;
+    margin-right: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px ;
 }
 
 
@@ -181,14 +203,19 @@ article a{
     text-decoration: none;
     font-size: 16pt;
     font-family: 'Noto Sans', sans-serif;
-    text-align: center;
+    text-align: left;
     color: white;
     margin-top: 27px ;
     margin-bottom:74px;    
     padding: 9px 9px 9px 9px;
+    padding-right: 9px;
     display: inline-block;
 }
 
+article a:hover{
+    font-weight: bolder;
+    background-color: #3b4834;
+}
 
 article p{
     font-family: 'Noto Sans', sans-serif;
@@ -209,3 +236,66 @@ article p{
 }
 
 
+
+
+/**/
+
+footer{
+    
+    background-color: #3b4834;
+    width: 960px;
+    height: 243px;
+    margin-left: 29px;
+       
+}
+
+footer nav{
+    padding-left: 340px;
+    padding-right: 340px;
+    
+}
+
+footer li{
+    padding-left: 10px;
+}
+
+footer ul{    
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+footer h2{
+    font-size: 52px;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    color: #ffffff;    
+}
+
+footer ul a{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16.2px;    
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+
+
+.copyright{
+    background-color: #6c7355;
+    width: 960px;
+    height: 75px;
+    text-align: center;
+    font-size: 21.3px;
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 18px;
+    padding-bottom: 18px;
+ }
+
+footer nav a:hover{
+    font-weight: bolder;
+	color: #ffffff,
+}

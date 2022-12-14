@@ -1,61 +1,142 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
     <head>
-             
- 
-    <title>CSS Introduction</title>
-    <meta charset="utf-8">
-    <meta name="author" content="kosisochukwu chukwuemeka-peter">
-    <!--<link href="css/reset.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">-->
-
-  </head>
-  <body>
-    <div class="container">
-
-      <header>
-        <a href="#">                
-            <img src="img/rving-logo.png" alt="logo">
-            </a>
-            <h1 class="visuallyhidden">RVing</h1>
-            <nav> 
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="camping-passes.html">CAMPING PASSES</a></li>
-                    <li><a href="#">CHECKOUT</a></li>
-                    
-                </ul> 
-            </nav>   
-
-      </header>
-      <main>
-
-      </main>
-      <footer>
-        <h2 class="rv-life" >RVing Life</h2>
-                    <nav>                
+        <meta charset="utf-8">
+        <title>RV Life</title>
+        <meta name="author" content="kosisochukwu chukwuemeka-peter">
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/checkout.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="top">
+                    <h1 class="visuallyhidden">RVing</h1>
+                    <a href="index.html" target="blank"><img src="img/rving-logo.png" alt="logo"></a> 
+                    <nav>
                         <ul>
-                            <li><a href="#">Resources</a></li>
-                            <li><a href="#">RV FAQs </a></li>
-                            <li><a href="#">RV site</a></li>
-                            <li><a href="#">RV stories</a></li>
-                            <li><a href="#">RV rental</a></li>
-                            <li><a href="#">plan a trip</a></li>
+                            <li><a href="camping-passes.html">CAMPING PASSES</a></li>
+                            <li><a href="#">CHECKOUT</a></li>
                         </ul>
-                    </nav>    
-                </footer>
+                    </nav>
+                </div>
+            </header>
 
-                <section class="copyright">
-                    <h2 class="visuallyhidden">aaa</h2>        
-                    <div>                
-                        <p>© Copyright 2022 all rights reserved.</p>
-                        <p>For educational purpose only.</p>   
+            <main>
+                <section class="checkout">
+                    <h2>Checkout</h2>
+                    <form>
+                        <div class="align">
+                            <section class="shipping">
+                                <h3>Shipping address</h3>
+                                <div class="first">
+                                    <div class="first-name">
+                                        <label for="name">First Name <span>(required)</span></label>
+                                        <input id="name" type="text">
+                                    </div>
+                                    <div class="last-name">
+                                        <label for="last-name">Last Name <span>(required)</span></label>
+                                        <input id="last-name" type="text">
+                                    </div>
+                                </div>
                                 
+                                <div class="second">
+                                    <div class="address">
+                                        <label for="address">Address <span>(required)</span></label>
+                                        <input id="address" type="text">
+                                    </div>
+                                    <div class="province-state">
+                                        <label for="province-state">Province/State <span>(required)</span></label>
+                                        <input id="province-state" type="text">
+                                    </div>
+                                </div>
+                               
+                                <div class="third">
+                                    <div class="city">
+                                        <label for="city">City <span>(required)</span></label>
+                                        <input id="city" type="text">
+                                    </div>
+                                    <div class="postal-code">
+                                        <label for="postal">Postal Code <span>(required)</span></label>
+                                        <input id="postal" type="text">
+                                    </div>
+                                </div>
+                                
+                                <div class="fourth">
+                                    <div class="email">
+                                        <label for="email">Email <span>(required)</span></label>
+                                        <input id="email" type="email">
+                                    </div>
+                                    <div class="phone">
+                                        <label for="phone">Telephone <span>(required)</span></label>
+                                        <input id="phone" type="text">
+                                    </div>
+                                </div>
+                               
+                            </section>
+                            <div class="order">
+                                <h3>My order</h3>
+                                <h4>Two Jack Main Annual Pass</h4>
+                                <p>Adult</p>
+                                <p>Valid from December 2022 to December 2032</p>
+                                <p class="money">$72.25</p>
+                                <a href="#">X Remove item</a>
+                            </div> 
+                        </div>
+                       
+                        <section class="billing">
+                            <h3>Billing information</h3>
+                            <div class="credit-card">
+                                <label for="credit">Credit Card number <span>(required)</span></label>
+                                <input id="credit" type="text">
+                            </div>
+
+                            <div class="fifth">
+                                <div class="expiry-date">
+                                    <label for="date">Expiry Date <span>(required)</span></label>
+                                    <input id="date" type="date">
+                                </div>
+                                <div class="security-code">
+                                    <label for="security">Security Code <span>(required)</span></label>
+                                    <input id="security" type="text">
+                                </div>
+                            </div>
+                        </section>
+
+                        <div class="info">
+                            <div class="checkbox">
+                                <input id="agree" type="checkbox">
+                                <label for="agree"></label>
+                            </div>
+                            <p>I accept the terms of use and understand that this pass or permit is non- transferrable and non-refundable</p>
+                        </div>
+                    </form>
+                    <div>
+                        <a class="purchase" href="#">Purchase now</a>
                     </div>
-      </footer>
-    </div>
-  </body>
-    
+                </section>
+            </main>
+
+            <footer class="bottom">
+                <h2>RVing Life</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">RV FAQS</a></li>
+                        <li><a href="#">RV Sites</a></li>
+                        <li><a href="#">RV Stories</a></li>
+                        <li><a href="#">RV Rentals</a></li>
+                        <li><a href="#">Plan a Trip</a></li>
+                    </ul>
+                </nav>
+                <div class="ending">
+                    <p>© Copyright 2022. All rights reserved.</p>
+                    <p>For educational puproses only.</p>
+                </div>
+            </footer>
+        </div>
+     </body>
 </html>
-     
